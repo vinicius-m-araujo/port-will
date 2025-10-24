@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Merriweather+Sans:wght@300..800&family=Poppins&display=swap');
+
+:root{
+    --fonte-topo: "Poppins",sans-serif;
+    --font-body: 'Lato', sans-serif;
+    --color-primary: #005f73;
+    --color-text-light: #f8f9fa;
+    --color-bg-light: #f8f9fa;
+    --navbar-height: 100px;
+    --container-width: 1140px
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container-navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 20px 20px;
+}
+
+.navbar_logo{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar_list li{
+    display: inline-block;
+}
+
+.navbar_list a{
+    margin-left: 10em;
+    text-decoration: none;
+}
+
+.navbar_btn a{
+    text-decoration: none;
+}
