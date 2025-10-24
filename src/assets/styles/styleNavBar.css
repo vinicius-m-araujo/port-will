@@ -25,6 +25,7 @@ html{
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px 20px 20px;
+    font-size: 20px;
 }
 
 .navbar_logo{
@@ -37,7 +38,8 @@ html{
 }
 
 .navbar_list a{
-    margin-left: 10em;
+    margin-left: 5em;
+    margin-right: 5em;
     text-decoration: none;
 }
 
